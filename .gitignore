@@ -1,36 +1,32 @@
-# Build directories
+# Doxygen документация
+/docs/
+/docs/html/
+/docs/latex/
+
+# Сборка CMake
 build/
 CMakeFiles/
 *.cmake
 Makefile
 CMakeCache.txt
 
-# IDE
-.vs/
-.vscode/
-.idea/
-*.user
-*.user.*
-*.suo
-*.ncb
-
-# Qt generated files
+# Qt
 moc_*
 qrc_*
 ui_*
 *.moc
 
-# Executables
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.ncb
+
+# Исполняемые файлы
 *.exe
 *.app
 *.dll
 *.so
 *.dylib
-
-# Documentation
-docs/latex/
-*.doxyfile.bak
-
-# OS files
-.DS_Store
-Thumbs.db
