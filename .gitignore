@@ -1,0 +1,22 @@
+# Документация
+/docs/html/
+/docs/latex/
+
+# Сборка
+/build/
+/CMakeFiles/
+
+# IDE
+*.user
+*.user.*
+*.suo
+*.ncb
+
+# Автогенерируемые файлы
+moc_*
+qrc_*
+ui_*
+
+# Исполняемые файлы
+*.exe
+*.app
