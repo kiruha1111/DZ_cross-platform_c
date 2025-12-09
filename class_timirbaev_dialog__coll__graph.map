@@ -1,0 +1,7 @@
+<map id="TimirbaevDialog" name="TimirbaevDialog">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,253,219,503"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="15,65,81,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="61,144,86,252,81,254,56,145"/>
+<area shape="rect" id="Node000003" href="$class_timirbaev_park.html" title=" " alt="" coords="105,5,249,191"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,192,147,238,142,237,153,190"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="TimirbaevPark::GetCouriers" name="TimirbaevPark::GetCouriers">
+<area shape="rect" id="Node000001" title=" " alt="" coords="257,77,459,102"/>
+<area shape="rect" id="Node000002" href="$class_timirbaev_main_window.html#ad57e77a4591aea0e3f96d4ef842f15f4" title=" " alt="" coords="15,5,199,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="293,76,186,48,187,43,295,71"/>
+<area shape="rect" id="Node000003" href="$class_timirbaev_dialog.html#a24f26254acf5053f43250eb16f08fdf9" title=" " alt="" coords="5,69,209,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,92,209,92,209,87,244,87"/>
+<area shape="rect" id="Node000004" href="$class_timirbaev_table.html#ac8950dc0958552b3ac6bc3113e7394f3" title=" " alt="" coords="9,133,205,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="295,108,187,136,186,131,293,103"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="timirbaevpark.h" name="timirbaevpark.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="176,5,287,32"/>
+<area shape="rect" id="Node000002" href="$timirbaevadddialog_8h.html" title=" " alt="" coords="53,80,194,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,43,144,81,141,77,202,39"/>
+<area shape="rect" id="Node000004" href="$timirbaevdialog_8h.html" title=" " alt="" coords="198,155,318,181"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="238,45,258,155,253,154,235,50"/>
+<area shape="rect" id="Node000008" href="$timirbaevmainwindow_8cpp.html" title=" " alt="" coords="46,304,217,331"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="159,30,100,48,69,63,43,82,27,98,19,114,10,155,9,179,14,202,26,223,41,243,77,277,113,303,107,304,74,281,37,247,21,226,9,204,4,179,5,154,14,112,23,95,39,78,67,58,98,43,163,26"/>
+<area shape="rect" id="Node000009" href="$timirbaevpark_8cpp.html" title=" " alt="" coords="269,80,394,107"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="261,39,317,79,311,80,261,44"/>
+<area shape="rect" id="Node000010" href="$timirbaevtable_8h.html" title=" " alt="" coords="417,80,531,107"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="288,34,434,78,429,81,288,39"/>
+<area shape="rect" id="Node000003" href="$timirbaevadddialog_8cpp.html" title=" " alt="" coords="20,155,174,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,119,104,155,99,153,112,124"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="160,112,237,153,232,155,160,117"/>
+<area shape="rect" id="Node000005" href="$timirbaevdialog_8cpp.html" title=" " alt="" coords="106,229,239,256"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="234,190,189,231,186,227,230,193"/>
+<area shape="rect" id="Node000006" href="$timirbaevmainwindow_8h.html" title=" " alt="" coords="264,229,420,256"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="285,189,330,229,325,229,284,194"/>
+<area shape="rect" id="Node000007" href="$main_8cpp.html" title=" " alt="" coords="305,304,379,331"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="344,270,344,305,340,302,340,274"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="294,261,169,306,168,301,288,261"/>
+<area shape="poly" id="edge12_Node000010_Node000006" title=" " alt="" coords="486,119,493,152,491,168,484,183,470,200,452,213,412,231,410,226,449,209,466,196,480,180,486,166,487,152,483,124"/>
+<area shape="rect" id="Node000011" href="$timirbaevtable_8cpp.html" title=" " alt="" coords="342,155,470,181"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="454,117,419,156,416,152,450,120"/>
+</map>

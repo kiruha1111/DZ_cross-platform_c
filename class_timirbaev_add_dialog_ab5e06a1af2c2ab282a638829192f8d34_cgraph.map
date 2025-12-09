@@ -1,0 +1,9 @@
+<map id="TimirbaevAddDialog::on_pushButton_clicked" name="TimirbaevAddDialog::on_pushButton_clicked">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,184,87"/>
+<area shape="rect" id="Node000002" href="$class_timirbaev_park.html#a64188085a6210408568880ccaac74b04" title=" " alt="" coords="232,5,459,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,47,266,31,267,36,185,52"/>
+<area shape="rect" id="Node000003" href="$class_timirbaev_park.html#a61c052c5e6960184a38d274579fc1451" title=" " alt="" coords="247,55,443,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,65,234,65,234,70,184,70"/>
+<area shape="rect" id="Node000004" href="$timirbaevutilities_8h.html#ade34be1d40b55fa76a87deac5b405aa5" title=" " alt="" coords="306,104,385,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="185,82,293,104,292,109,184,87"/>
+</map>

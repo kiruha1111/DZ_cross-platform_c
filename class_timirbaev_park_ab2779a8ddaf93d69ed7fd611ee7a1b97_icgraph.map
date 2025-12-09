@@ -1,0 +1,11 @@
+<map id="TimirbaevPark::DeleteCouriers" name="TimirbaevPark::DeleteCouriers">
+<area shape="rect" id="Node000001" title=" " alt="" coords="521,70,743,95"/>
+<area shape="rect" id="Node000002" href="$class_timirbaev_park.html#afc9ce89a7e9b14403bde5b2f0e4046b2" title=" " alt="" coords="271,13,447,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="556,70,419,41,420,35,558,64"/>
+<area shape="rect" id="Node000004" href="$class_timirbaev_main_window.html#a3a751d98cb35549d030e1274ba90c6b9" title=" " alt="" coords="262,63,455,103"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="507,85,456,85,456,80,507,80"/>
+<area shape="rect" id="Node000005" href="$class_timirbaev_park.html#ad09ba299753ea9f7ec4fd74251fadb28" title=" " alt="" coords="244,127,473,153"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="558,101,420,130,419,125,556,96"/>
+<area shape="rect" id="Node000003" href="$class_timirbaev_main_window.html#a629be824e6f9748fafc8de107be8a771" title=" " alt="" coords="5,5,196,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="257,28,196,28,196,23,257,23"/>
+</map>
