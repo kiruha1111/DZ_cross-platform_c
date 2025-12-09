@@ -1,0 +1,12 @@
+<map id="TimirbaevMainWindow" name="TimirbaevMainWindow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="61,459,237,656"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,296,101,365"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,376,110,458,105,459,73,381"/>
+<area shape="rect" id="Node000003" href="$class_timirbaev_park.html" title=" " alt="" coords="91,5,215,203"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,201,153,442,148,441,150,204"/>
+<area shape="rect" id="Node000004" href="$class_timirbaev_table.html" title=" " alt="" coords="214,275,334,387"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="186,200,212,249,219,261,214,261,208,252,186,205"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="246,384,214,446,209,443,242,388"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="244,69,305,139"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="276,151,277,275,272,274,273,156"/>
+</map>

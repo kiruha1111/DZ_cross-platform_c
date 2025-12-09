@@ -1,22 +1,36 @@
-# Документация
-/docs/html/
-/docs/latex/
-
-# Сборка
-/build/
-/CMakeFiles/
+# Build directories
+build/
+CMakeFiles/
+*.cmake
+Makefile
+CMakeCache.txt
 
 # IDE
+.vs/
+.vscode/
+.idea/
 *.user
 *.user.*
 *.suo
 *.ncb
 
-# Автогенерируемые файлы
+# Qt generated files
 moc_*
 qrc_*
 ui_*
+*.moc
 
-# Исполняемые файлы
+# Executables
 *.exe
 *.app
+*.dll
+*.so
+*.dylib
+
+# Documentation
+docs/latex/
+*.doxyfile.bak
+
+# OS files
+.DS_Store
+Thumbs.db

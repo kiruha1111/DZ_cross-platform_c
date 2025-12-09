@@ -1,0 +1,11 @@
+<map id="timirbaevdialog.h" name="timirbaevdialog.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="96,5,216,32"/>
+<area shape="rect" id="Node000002" href="$timirbaevdialog_8cpp.html" title=" " alt="" coords="5,80,139,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,45,88,82,85,78,131,40"/>
+<area shape="rect" id="Node000003" href="$timirbaevmainwindow_8h.html" title=" " alt="" coords="163,80,320,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,40,229,79,224,80,182,45"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html" title=" " alt="" coords="131,155,205,181"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="220,117,182,157,179,152,215,119"/>
+<area shape="rect" id="Node000005" href="$timirbaevmainwindow_8cpp.html" title=" " alt="" coords="230,155,400,181"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="266,115,305,155,299,154,264,120"/>
+</map>

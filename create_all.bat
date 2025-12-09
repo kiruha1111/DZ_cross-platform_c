@@ -1,37 +1,40 @@
 @echo off
 echo ====================================
-echo Генерация документации Doxygen
+echo Timirbaev Project - Documentation
 echo ====================================
 
-REM Проверяем установлен ли Doxygen
+echo Checking Doxygen installation...
 where doxygen >nul 2>nul
-if errorlevel 1 (
-    echo Ошибка: Doxygen не установлен или не добавлен в PATH
-    echo Скачайте с: https://www.doxygen.nl/download.html
+if %errorlevel% neq 0 (
+    echo ERROR: Doxygen not found!
+    echo Download from: https://www.doxygen.nl/download.html
+    echo Add to PATH: C:\Program Files\doxygen\bin
     pause
     exit /b 1
 )
 
-REM Проверяем Graphviz для диаграмм
+echo Checking Graphviz installation...
 where dot >nul 2>nul
-if errorlevel 1 (
-    echo Внимание: Graphviz не установлен. Диаграммы не будут созданы.
-    echo Скачайте с: https://graphviz.org/download/
+if %errorlevel% neq 0 (
+    echo WARNING: Graphviz not found. Diagrams will be missing.
+    echo Download from: https://graphviz.org/download/
     timeout /t 3
 )
 
-REM Очищаем старую документацию
-if exist docs\html rmdir /s /q docs\html
+echo Cleaning old documentation...
+if exist docs rmdir /s /q docs
+mkdir docs
 
-REM Генерируем документацию
-echo Генерация документации...
+echo Generating documentation with Doxygen...
 doxygen Doxyfile
 
 if exist docs\html\index.html (
-    echo Документация успешно сгенерирована!
-    echo Открываю в браузере...
+    echo SUCCESS: Documentation generated!
+    echo Opening in browser...
     start docs\html\index.html
 ) else (
-    echo Ошибка при генерации документации
-    pause
+    echo ERROR: Documentation generation failed!
+    echo Check Doxyfile configuration
 )
+
+pause
