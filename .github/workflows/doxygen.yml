@@ -1,17 +1,25 @@
-name: Deploy Documentation
+name: Deploy Doxygen Docs
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        
-      - name: Setup Doxygen
+        with:
+          fetch-depth: 0
+          
+      - name: Setup Git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          
+      - name: Install Doxygen
         run: |
           sudo apt-get update
           sudo apt-get install -y doxygen graphviz
@@ -19,11 +27,17 @@ jobs:
       - name: Generate Documentation
         run: |
           mkdir -p docs/html
-          echo "<html><body><h1>Working</h1><p>Test $(date)</p></body></html>" > docs/html/index.html
+          doxygen Doxyfile 2>&1 | tee doxygen.log
           
-      - name: Deploy to GitHub Pages
+      - name: Check generated files
+        run: |
+          echo "Generated files:"
+          ls -la docs/html/ || echo "No html directory"
+          
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs/html
+          force_orphan: true
           keep_files: false
