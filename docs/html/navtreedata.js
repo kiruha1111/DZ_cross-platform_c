@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Timirbaev Project - Courier Management System", "index.html", [
+    [ "Qt-приложение для управления курьерской службой с автоматической генерацией документации", "index.html", "index" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
