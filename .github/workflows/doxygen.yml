@@ -1,29 +1,43 @@
-name: Deploy to Pages
+name: Deploy Docs
 
 on:
   push:
     branches: [main]
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
+    
+    permissions:
+      pages: write
+      id-token: write
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-        
-      - name: Create simple page
+      - name: Setup Doxygen
         run: |
-          mkdir -p _site
-          echo "<h1>Timirbaev Project</h1><p>Test page</p>" > _site/index.html
+          sudo apt-get update
+          sudo apt-get install -y doxygen graphviz
           
+      - name: Generate Documentation
+        run: |
+          mkdir -p docs/html
+          doxygen Doxyfile
+          
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: '_site'
+          path: './docs/html'
           
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+        id: deployment
+        uses: actions/deploy-pages@v4
