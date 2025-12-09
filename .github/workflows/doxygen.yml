@@ -3,36 +3,27 @@ name: Deploy Documentation
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         
-      - name: Install Doxygen
+      - name: Setup Doxygen
         run: |
           sudo apt-get update
           sudo apt-get install -y doxygen graphviz
           
-      - name: Generate Docs
+      - name: Generate Documentation
         run: |
-          echo "Current directory:"
-          pwd
-          ls -la
-          echo "Generating documentation..."
-          doxygen Doxyfile || echo "Doxygen finished"
-          
-      - name: List generated files
-        run: |
-          echo "Generated files in docs/html/:"
-          ls -la docs/html/ 2>/dev/null || echo "No docs/html directory"
+          mkdir -p docs/html
+          echo "<html><body><h1>Working</h1><p>Test $(date)</p></body></html>" > docs/html/index.html
           
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs/html
-          force_orphan: true
+          keep_files: false
